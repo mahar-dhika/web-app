@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+coverage
+dist
+node_modules
+
+# Ignore all HTML files except for specific ones:
+*.html
+!index.html
+
+# Ignore generated files:
+*.generated.ts
+*.generated.js
+
+# Ignore config files that shouldn't be formatted:
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
